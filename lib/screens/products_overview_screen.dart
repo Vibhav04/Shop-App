@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:myshop_app/widgets/products_grid.dart';
 
 class ProductsOverviewScreen extends StatelessWidget {
+  const ProductsOverviewScreen({super.key});
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -10,7 +12,7 @@ class ProductsOverviewScreen extends StatelessWidget {
           'MyShop',
         ),
       ),
-      body: ProductsGrid(),
+      body: const ProductsGrid(),
     );
   }
 }
